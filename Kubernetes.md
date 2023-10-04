@@ -1,4 +1,4 @@
-#containers #kubernetes 
+# Kubernetes
 
 > This section aims to explain about kubernetes architecture. A practical approach of installing a cluster is noted in [[Kubernetes Hard Way(containerd)]]. All learned in [certified kubernetes administrator course](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/learn).
 
