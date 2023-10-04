@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"96478df767007387","x":-440,"y":-1057,"width":1060,"height":577,"color":"5","type":"file","file":"Technology/Containers/Kubernetes.md"},
+		{"id":"0c74a2fe2ed553bc","x":1440,"y":-1657,"width":700,"height":600,"type":"link","url":"https://docs.linuxfoundation.org/tc-docs/certification/tips-cka-and-ckad"},
+		{"id":"2846209652a6c57d","x":-1440,"y":-1720,"width":400,"height":400,"color":"1","type":"file","file":"Technology/Containers/Kubernetes/K8S Cluster Architecture/kube-scheduler.md"},
+		{"id":"c4281f9be4489615","x":-1360,"y":-80,"width":400,"height":400,"color":"1","type":"file","file":"Technology/Containers/Kubernetes/K8S Cluster Architecture/kube-proxy.md"},
+		{"id":"1aa6dc11bad944c9","x":-1440,"y":-946,"width":341,"height":178,"type":"text","text":"# Cluster Architecture\n\nComponents used to compose a kubernetes cluster."},
+		{"id":"9872938ee88b16ad","x":-2240,"y":-1057,"width":400,"height":400,"color":"1","type":"file","file":"Technology/Containers/Kubernetes/K8S Cluster Architecture/ETCD.md"},
+		{"id":"0911b0c295b09598","x":-2240,"y":-560,"width":400,"height":400,"color":"1","type":"file","file":"Technology/Containers/Kubernetes/K8S Cluster Architecture/Kube API Server.md"},
+		{"id":"eba759d404fd4a3e","x":-2040,"y":-1720,"width":400,"height":400,"color":"1","type":"file","file":"Technology/Containers/Kubernetes/K8S Cluster Architecture/kubelet.md"},
+		{"id":"e42b43b73936a7bb","x":-1920,"y":-80,"width":400,"height":400,"color":"1","type":"file","file":"Technology/Containers/Kubernetes/K8S Cluster Architecture/kube-controller-manager.md"},
+		{"id":"91c3f8ab57417f1a","x":-104,"y":120,"width":400,"height":400,"type":"file","file":"Technology/Containers/Scheduling.md"},
+		{"id":"2cd4ccb74aea4c6f","x":776,"y":720,"width":400,"height":400,"type":"file","file":"Technology/Containers/Kubernetes/Scheduling/Manual scheduling.md"},
+		{"id":"e895372808b1a647","x":-304,"y":1373,"width":400,"height":400,"type":"file","file":"Technology/Containers/Kubernetes/Scheduling/Taints and Tolerations.md"},
+		{"id":"e248bca82b6a98cd","x":176,"y":1373,"width":400,"height":400,"type":"file","file":"Technology/Containers/Kubernetes/Scheduling/Node Selectors.md"},
+		{"id":"9ac019e55a76b6b0","x":656,"y":1240,"width":400,"height":400,"type":"file","file":"Technology/Containers/Kubernetes/Scheduling/Node Affinity.md"},
+		{"id":"f9c0355309b44b22","x":-1160,"y":600,"width":400,"height":400,"type":"file","file":"Technology/Containers/Kubernetes/Scheduling/DaemonSets.md"},
+		{"id":"6c0f2a5a67576b73","x":-851,"y":1120,"width":400,"height":400,"type":"file","file":"Technology/Containers/Kubernetes/Scheduling/Labels and Selectors.md"}
+	],
+	"edges":[
+		{"id":"ff575a58b61f1485","fromNode":"1aa6dc11bad944c9","fromSide":"left","toNode":"9872938ee88b16ad","toSide":"right"},
+		{"id":"598aef383d3b535f","fromNode":"1aa6dc11bad944c9","fromSide":"top","toNode":"2846209652a6c57d","toSide":"bottom"},
+		{"id":"d27c1703635ed27a","fromNode":"1aa6dc11bad944c9","fromSide":"top","toNode":"eba759d404fd4a3e","toSide":"bottom"},
+		{"id":"4d3b24cede9f9a15","fromNode":"1aa6dc11bad944c9","fromSide":"left","toNode":"0911b0c295b09598","toSide":"right"},
+		{"id":"6e596a5d0ccc3b50","fromNode":"1aa6dc11bad944c9","fromSide":"bottom","toNode":"e42b43b73936a7bb","toSide":"top"},
+		{"id":"f501cf8e436251b0","fromNode":"1aa6dc11bad944c9","fromSide":"bottom","toNode":"c4281f9be4489615","toSide":"top"},
+		{"id":"5370f6de3d7ce6bd","fromNode":"96478df767007387","fromSide":"left","toNode":"1aa6dc11bad944c9","toSide":"right"},
+		{"id":"f520e174ac80f7a2","fromNode":"96478df767007387","fromSide":"bottom","toNode":"91c3f8ab57417f1a","toSide":"top"},
+		{"id":"5c236553e40ab3a4","fromNode":"91c3f8ab57417f1a","fromSide":"left","toNode":"f9c0355309b44b22","toSide":"right"},
+		{"id":"fc63a4d7b12d2d12","fromNode":"91c3f8ab57417f1a","fromSide":"left","toNode":"6c0f2a5a67576b73","toSide":"top"},
+		{"id":"36cc459e20dcf5de","fromNode":"91c3f8ab57417f1a","fromSide":"bottom","toNode":"e895372808b1a647","toSide":"top"},
+		{"id":"b043fd1b231b530a","fromNode":"91c3f8ab57417f1a","fromSide":"bottom","toNode":"e248bca82b6a98cd","toSide":"top"},
+		{"id":"a4e89fd6e01a84e6","fromNode":"91c3f8ab57417f1a","fromSide":"right","toNode":"2cd4ccb74aea4c6f","toSide":"left"},
+		{"id":"824580e255f35e26","fromNode":"91c3f8ab57417f1a","fromSide":"right","toNode":"9ac019e55a76b6b0","toSide":"left"},
+		{"id":"1832a8d9daad50d4","fromNode":"96478df767007387","fromSide":"right","toNode":"0c74a2fe2ed553bc","toSide":"left","label":"Exam info"}
+	]
+}
