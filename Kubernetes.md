@@ -1,10 +1,9 @@
 #containers #kubernetes 
 
-> [!info]
 > This section aims to explain about kubernetes architecture. A practical approach of installing a cluster is noted in [[Kubernetes Hard Way(containerd)]]. All learned in [certified kubernetes administrator course](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/learn).
 
 Kubernetes is an open source container orchestrator, initially developed by google and now with support by CNCF.
-![[components-of-kubernetes.svg]]
+![components-of-kubernetes.svg](components-of-kubernetes.svg)
 [Kubernetes Components | Kubernetes](https://kubernetes.io/docs/concepts/overview/components/)
 
 ### Common resources
